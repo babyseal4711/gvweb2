@@ -1,0 +1,284 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navigation{
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 2.5%;
+}
+
+.navigation_logo{
+  margin-left: 5%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 10%;
+  cursor: pointer;
+}
+
+
+.menu{
+  margin-right: 5%;
+}
+
+.list{
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  width: 120%;
+}
+
+.list > li{
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.cover{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover_video{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.cover_text{
+  text-align: left;
+  bottom: 5%;
+  left: 5%;
+  width: 100%;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+}
+
+
+.article{
+  width: 100%;
+  background-color: #080e1e;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.article > h1{
+  color: white;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+.article_contents{
+  position: relative;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.article_contents_img{
+  margin-left: 4%;
+  width: 30%;
+}
+.article_contents_img > img{
+  width: 100%;
+}
+
+.article_contents_text{
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  width: 60%;
+}
+
+.Information{
+  background-color: #080e1e;
+  padding-top: 40px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.Information > img{
+  margin-bottom: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Information_content{
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  color: white;
+}
+
+.Information_content > h1{
+  font-size: 50px;
+}
+
+.contentbox{
+  width: 100%;
+  height: 50vh;
+  margin: 20px;
+  background-color: #243642;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.contentbox > img{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.contentbox > span{
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+.activebox{
+  width: 100%;
+  height: 50vh;
+  background-color: #1622296b;
+  position: absolute;
+  top: 0%;
+  display: none;
+}
+
+.contentbox:active > .activebox{
+  display: block;
+}
+
+.Information_content_boxes{
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.FounderGreeting{
+  background-color: #025a98;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.FounderGreetingText{
+  width: 60%;
+}
+.FounderGreeting > .FounderGreetingText > h1{
+  font-size: 50px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.FounderGreeting > .FounderGreetingText > span{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+.FounderGreeting > img {
+  margin-left: 10px;
+  width: 30%;
+}
+
+.Banner{
+  background-color: black;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0px;
+}
+
+.BannerContent{
+  color: white;
+  text-align: left;
+  display: flex;
+  margin-right: 20px;
+}
+
+.BannerContent_Box{
+  margin-left: 10px;
+  margin-right: 1opx;
+}
+
+.BannerContent_Box > a{
+  margin: 0px;
+  font-size: 20px;
+}
+
+.BannerContent_img{
+  width: 20%;
+}
+
+.BannerContent_img > img{
+  width: 50%;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #5984db;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

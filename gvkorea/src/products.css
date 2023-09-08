@@ -1,0 +1,36 @@
+.ButterflyValveList{
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 100%;
+}
+
+.ButterflyVavleTitle{
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.ButterflyVavleTitle > h1{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.ButterflyVavleTitle > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#banner_product{
+    position: absolute;
+    bottom: 0%;
+}
+
+.ButterflyValveContentBox{
+    width: 25%;
+    height: 50vh;
+    margin: 40px;
+    background-color: #243642;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+  }

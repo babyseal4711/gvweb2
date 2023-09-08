@@ -1,0 +1,131 @@
+.banner_bottom{
+    position: static;
+    bottom: 0%;
+}
+
+.AboutUsHeadTitle{
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.AboutUsHeadTitle > h1{
+    margin: 0px;
+    font-size: 60px;
+}
+
+.AboutUsHeadTitle > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.AboutUsHeadContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.AboutUsHeadContentText{
+    display: inline;
+    background-color: #243642;
+    color: white;
+    font-weight:bold;
+    font-size: 18px;
+    width: 40%;
+    padding: 20px;
+}
+
+.AboutUsHeadContentImg{
+    width: 30%;
+}
+
+.AboutUsHeadContentImg > img{
+    width: 100%;
+}
+
+
+.History{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.History > h1{
+    color: black;
+    font-size: 40px;
+    margin-left: 5%;
+    
+}
+
+.HistoryImg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.HistoryImg > img{
+    width: 60%;
+}
+
+.Philosophy{
+    margin-top: 80px;
+}
+
+.Philosophy > h1{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+
+.philosophy{
+    font-size: 20px;
+    text-align: center;
+}
+
+.PhilosophyElement{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.innerLine{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.innerLine_inner{
+    width: 1px;
+    height: 250px;
+    border-left: 2px solid black;
+}
+
+.Goal{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.Location{
+    background-color: #025a98;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.Location > h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+.LocationImg{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.LocationImg > img{
+    width: 40%;
+}
